@@ -1,0 +1,29 @@
+[  
+{
+    "name": "logies",
+    "type": "voc",
+    "eap": "OSLO-Logies.eap",
+    "diagram": "OSLO-Logies",
+    "template": "logies-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Logies",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  },
+  {
+    "name": "logies-basis",
+    "type": "ap",
+    "eap": "OSLO-Logies.eap",
+    "diagram": "OSLO-Logies",
+    "template": "logies-ap.j2",
+    "title": "Logies Basis",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Logies",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/logies-basis"
+  }
+]
